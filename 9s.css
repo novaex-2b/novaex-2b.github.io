@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: Nier;
-  src: url("./fonts/FOT-RodinBokutoh Pro M") format('truetype');
+  src: url("./fonts/FOT-RodinBokutoh Pro M.otf") format('opentype');
   font-weight: bold;
   font-style: normal;
 }
