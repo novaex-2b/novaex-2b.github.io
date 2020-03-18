@@ -1,0 +1,230 @@
+<html>
+  <head>
+    <link rel="shortcut icon" href="img/favicon.png">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="9s.css">
+    <script src="script/jquery.min.js" type="text/javascript"></script>
+    <script src="script/a2.js" type="text/javascript" async></script>
+    <title>人類に栄光あれ</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="title-bar" class="wrapper">
+          <div id="title-thick" class="dec-thick"></div>
+          <div id="title-thin" class="dec-thin"></div>
+          <div id="media-container" class="title-box-container">
+            <div id="media" class="title-box">
+              <img id="media-img" class="title-icon" src="img/media_dark.png">
+              <span id="media-span" class="title-span">MEDIA</span>
+            </div>
+          </div>
+          <div id="home-container" class="title-box-container">
+            <div id="home" class="title-box">
+              <img id="home-img" class="title-icon" src="img/home_dark.png">
+              <span id="home-span" class="title-span">HOME</span>
+            </div>
+          </div>
+          <div id="apps-container" class="title-box-container">
+            <div id="apps" class="title-box">
+              <img id="apps-img" class="title-icon" src="img/apps_dark.png">
+              <span id="apps-span" class="title-span">APPS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="banner" id="top-banner">
+        <img src="img/nier_banner.png">
+      </div>
+
+      <div id="middle">
+        <div id="middle-left">
+          <div id="page-title"></div>
+          <div id="list-container">
+              <div id="list-thick" class="dec-thick"></div>
+              <div id="list-thin" class="dec-thin"></div>
+              <div id="list">
+                <div class="list-member">
+                  <div class="list-square"></div>
+                  <a id="list-mem-1" href=""></a>
+                </div>
+                <div class="list-member inner-list-member">
+                  <div class="list-square"></div>
+                  <a id="list-mem-2" href=""></a>
+                </div>
+                <div class="list-member inner-list-member">
+                  <div class="list-square"></div>
+                  <a id="list-mem-3" href=""></a>
+                </div>
+                <div class="list-member inner-list-member">
+                  <div class="list-square"></div>
+                  <a id="list-mem-4" href=""></a>
+                </div>
+                <div class="list-member">
+                  <div class="list-square"></div>
+                  <a id="list-mem-5" href=""></a>
+                </div>
+              </div>
+            </div>
+          <div id="date-loc-info">
+            <div id="locale">
+              <p id="locale-txt">Eufaula, Alabama</p>
+            </div>
+            <div id="date-container">
+              <img id="square-icon" src="img/squares_dark.png">
+              <div id="date">日曜日, 3月30</div>
+            </div>
+            <div id="events">No events today.</div>
+          </div>
+        </div>
+        <div id="middle-right">
+          <div id="weather-container" class="home-visible window right-content">
+            <div id="weather-title" class="window-title">
+              <span id="weather-span" class="window-title-span">Status</span>
+            </div>
+            <div id="level-block">
+              <div class="level-content" id="level-name">ノバかみ</div>
+              <div class="level-content" id="level-lvl"></div>
+            </div>
+            <div id="weather-block">
+              <div class="weather-list-container wth-col-1">
+                <ul id="wth-lst-1">
+                  <li>天気:</li>
+                  <li>高温:</li>
+                  <li>低温:</li>
+                  <li>天気運:</li>
+                  <li>温度:</li>
+                  <li>最終更新:</li>
+                </ul>
+              </div>
+              <div class="weather-list-container wth-col-2">
+                <ul id="wth-lst-2">
+                </ul>
+              </div>
+            </div>
+            <div id="weather-info-block">
+              <span id="airing-span"></span>
+            </div>
+            <div id="quote-container">
+              <div id="quote"></div>
+            </div>
+          </div>
+
+          <div id="art-container" class="media-visible window right-content">
+            <div id="art-title" class="window-title">
+              <span id="art-span" class="window-title-span"></span>
+            </div>
+            <div id="art"></div>
+          </div>
+
+          <div id="apps-dr-sel-container" class="apps-visible right-content">
+            <div id="apps-selector-container">
+              <div id="apps-thick" class="dec-thick"></div>
+              <div id="apps-thin" class="dec-thin"></div>
+              <div id="apps-selector">
+                <div class="list-member">
+                  <div class="list-square"></div>
+                  <div id="piracy" class="app-mem" href="">海賊</div>
+                </div>
+                <div class="list-member inner-list-member">
+                  <div class="list-square"></div>
+                  <div id="nihon" class="app-mem" href="">日本語</div>
+                </div>
+                <div class="list-member inner-list-member">
+                  <div class="list-square"></div>
+                  <div id="4chan" class="app-mem" href="">四チャン</div>
+                </div>
+                <div class="list-member">
+                  <div class="list-square"></div>
+                  <div id="misc" class="app-mem" href="">ミスク</div>
+                </div>
+              </div>
+            </div>
+            <div id="apps-drawer" class="window">
+              <div id="apps-drawer-title" class="window-title">
+                <span id="apps-drawer-span" class="window-title-span"></span>
+              </div>
+              <div id="apps-drawer-left">
+                <a id="slot-1-link" href="" class="apps-link">
+                  <div id="slot-1" class="apps-slot">
+                    <span class="slot-span" id="slot-1-title">Slot A</span>
+                    <div class="slot-1-content" id="slot-1-content">
+                      <div class="list-square"></div>
+                      <span class="slot-content-span" id="slot-1-content-span">Empty</span>
+                    </div>
+                  </div>
+                </a>
+                <a id="slot-2-link" href="" class="apps-link">
+                  <div id="slot-2" class="apps-slot">
+                    <span class="slot-span" id="slot-2-title">Slot B</span>
+                    <div class="slot-2-content" id="slot-2-content">
+                      <div class="list-square"></div>
+                      <span class="slot-content-span" id="slot-2-content-span">Empty</span>
+                    </div>
+                  </div>
+                </a>
+                <a id="slot-3-link" href="" class="apps-link">
+                  <div id="slot-3" class="apps-slot">
+                    <span class="slot-span" id="slot-3-title">Slot C</span>
+                    <div class="slot-3-content" id="slot-3-content">
+                      <div class="list-square"></div>
+                      <span class="slot-content-span" id="slot-3-content-span">Empty</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div id="apps-drawer-middle">
+                <div class="apps-dot"></div>
+                <div class="apps-line"></div>
+                <div class="apps-dot"></div>
+              </div>
+              <div id="apps-drawer-right">
+                <a id="slot-4-link" href="" class="apps-link">
+                  <div id="slot-4" class="apps-slot">
+                    <span class="slot-span" id="slot-4-title">Slot D</span>
+                    <div class="slot-4-content" id="slot-4-content">
+                      <div class="list-square"></div>
+                      <span class="slot-content-span" id="slot-4-content-span">Empty</span>
+                    </div>
+                  </div>
+                </a>
+                <a id="slot-5-link" href="" class="apps-link">
+                  <div id="slot-5" class="apps-slot">
+                    <span class="slot-span" id="slot-5-title">Slot E</span>
+                    <div class="slot-5-content" id="slot-5-content">
+                      <div class="list-square"></div>
+                      <span class="slot-content-span" id="slot-5-content-span">Empty</span>
+                    </div>
+                  </div>
+                </a>
+                <a id="slot-6-link" href="" class="apps-link">
+                  <div id="slot-6" class="apps-slot">
+                    <span class="slot-span" id="slot-6-title">Slot F</span>
+                    <div class="slot-6-content" id="slot-6-content">
+                      <div class="list-square"></div>
+                      <span class="slot-content-span" id="slot-6-content-span">Empty</span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="footer">
+        <div id="tag" class="window">
+          <div class="dec-thick"></div>
+          <div class="dec-thin"></div>
+          <div id="tag-content">Confirm current objectives and weather.</div>
+        </div>
+      </div>
+
+      <div class="banner" id="bottom-banner">
+        <img src="img/nier_banner.png">
+      </div>
+    </div>
+  </body>
+</html>

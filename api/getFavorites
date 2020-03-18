@@ -1,0 +1,181 @@
+{
+  "#home": {
+    "name": "home",
+      "links": [
+        {
+          "item": "ユーチューブ",
+          "url": "https://youtube.com/feed/subscriptions"
+        },
+        {
+          "item": "トゥタノタ",
+          "url": "https://mail.tutanota.com/#login"
+        },
+        {
+          "item": "ニャー",
+          "url": "https://nyaa.si"
+        },
+        {
+          "item": "ツィッチ",
+          "url": "https://twitch.tv/directory/following"
+        },
+        {
+          "item": "アニリスト",
+          "url": "https://anilist.co/user/novakami/animelist"
+        }
+      ]
+  },
+  "#media": {
+    "name": "media",
+      "links": [
+        {
+          "item": "ワールヘイベン",
+          "url": "https://alpha.wallhaven.cc"
+        },
+        {
+          "item": "紙",
+          "url": "https://boards.4chan.org/wg"
+        },
+        {
+          "item": "アニメ紙",
+          "url": "https://boards.4chan.org/w"
+        },
+        {
+          "item": "ピクシブ",
+          "url": "https://pixiv.net"
+        },
+        {
+          "item": "ヤンデレ",
+          "url": "https://yande.re"
+        }
+      ]
+  },
+  "#apps": {
+    "name": "apps",
+      "links": [
+        {
+          "item": "話",
+          "url": "https://hangouts.google.com"
+        },
+        {
+          "item": "音楽",
+          "url": "https://open.spotify.com/browse"
+        },
+        {
+          "item": "ポケモン",
+          "url": "https://play.pokemonshowdown.com"
+        },
+        {
+          "item": "ちる",
+          "url": "https://chiru.no"
+        },
+        {
+          "item": "うんこ",
+          "url": "https://mail.google.com/mail/u/0/#inbox"
+        }
+      ]
+  },
+  "misc": {
+    "name": "ミスク",
+      "links": [
+        {
+          "item": "米",
+          "url": "https://reddit.com/r/unixporn"
+        },
+        {
+          "item": "ゲト",
+          "url": "https://privacytools.io/"
+        },
+        {
+          "item": "茶話",
+          "url": "https://reddit.com/r/tea"
+        },
+        {
+          "item": "ゆのみ",
+          "url": "https://yunomi.life"
+        },
+        {
+          "item": "茶",
+          "url": "https://yunnansourcing.us"
+        },
+        {
+          "item": "メタル辞書",
+          "url": "https://metal-archives.com"
+        }
+      ]
+  },
+  "nihon": {
+    "name": "日本語",
+      "links": [
+        {
+          "item": "勉強",
+          "url": "https://reddit.com/r/learnjapanese"
+        },
+        {
+          "item": "日常日本語",
+          "url": "https://djtguide.neocities.org"
+        },
+        {
+          "item": "辞書",
+          "url": "https://jisho.org"
+        },
+        {
+          "item": "マーギ先生",
+          "url": "https://maggiesensei.com"
+        },
+        {
+          "item": "漢字ペディア",
+          "url": "https://kanjipedia.jp"
+        }
+      ]
+  },
+  "piracy": {
+    "name": "海賊",
+      "links": [
+        {
+          "item": "海賊女",
+          "url": "http://fitgirl-repacks.site"
+        },
+        {
+          "item": "リート",
+          "url": "https://1337x.to"
+        },
+        {
+          "item": "GJM",
+          "url": "https://goodjobmedia.com"
+        },
+        {
+          "item": "メタル",
+          "url": "https://en.metal-tracker.com"
+        },
+        {
+          "item": "海賊",
+          "url": "https://reddit.com/r/piracy"
+        },
+        {
+          "item": "死の価格",
+          "url": "https://shinokakaku.xyz"
+        }
+      ]
+  },
+  "4chan": {
+    "name": "四チャン",
+      "links": [
+        {
+          "item": "アニメ",
+          "url": "https://boards.4chan.org/a"
+        },
+        {
+          "item": "テク",
+          "url": "https://boards.4chan.org/g"
+        },
+        {
+          "item": "テゲ",
+          "url": "https://boards.4chan.org/tg"
+        },
+        {
+          "item": "日本",
+          "url": "https://boards.4chan.org/jp"
+        }
+      ]
+  }
+}
