@@ -22,6 +22,12 @@
   font-weight: bold;
   font-style: normal;
 }
+
+@font-face {
+  font-family: Automata;
+  src: url("./fonts/FOT-RodinNTLG Pro.otf") format('opentype');
+}
+
 html, body {
   background-color: var(--bg);
   height: 100% !important;
