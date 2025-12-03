@@ -10,7 +10,7 @@ let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 const default_configuration = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Eufaula",
     scale: "C",
   },
   clock: {
@@ -27,7 +27,6 @@ const default_configuration = {
   ],
   search: {
     engines: {
-      p: ["https://www.perplexity.ai/search/?q=", "PerplexityAI"],
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
     },
@@ -43,7 +42,7 @@ const default_configuration = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
+      name: "nova",
       background_url: "src/img/banners/banner_09.gif",
       categories: [
         {
@@ -52,36 +51,42 @@ const default_configuration = {
             {
               name: "youtube",
               url: "https://youtube.com",
-              icon: "droplet-bolt",
+              icon: "brand-youtube",
               icon_color: palette.green,
             },
             {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
+              name: "twitter",
+              url: "https://x.com",
+              icon: "brand-twitter",
               icon_color: palette.peach,
+            },
+            {
+              name: "tuta",
+              url: "https://app.tuta.com",
+              icon: "mail",
+              icon_color: palette.red,
             },
           ],
         },
         {
-          name: "workspace",
+          name: "simping",
           links: [
             {
-              name: "gmail",
-              url: "https://mail.google.com",
-              icon: "brand-gmail",
+              name: "patreon",
+              url: "https://patreon.com",
+              icon: "brand-patreon",
               icon_color: palette.green,
             },
             {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
+              name: "ko-fi",
+              url: "https://ko-fi.com",
+              icon: "coffee",
               icon_color: palette.peach,
             },
             {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
+              name: "skeb",
+              url: "https://skeb.jp",
+              icon: "brush",
               icon_color: palette.red,
             },
             {
