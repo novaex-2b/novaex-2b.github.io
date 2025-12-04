@@ -43,39 +43,39 @@ const default_configuration = {
   tabs: [
     {
       name: "nova",
-      background_url: "src/img/banners/banner_09.gif",
+      background_url: "src/img/banners/kanna.gif",
       categories: [
         {
-          name: "bookmarks",
+          name: "duck",
           links: [
             {
-              name: "youtube",
-              url: "https://youtube.com",
+              name: "Kanna ch.",
+              url: "https://www.youtube.com/@KannaYanagi",
               icon: "brand-youtube",
-              icon_color: palette.green,
+              icon_color: palette.red,
             },
             {
-              name: "twitter",
-              url: "https://x.com",
+              name: "Kanna twitter",
+              url: "https://x.com/Yanagi_Kanna",
               icon: "brand-twitter",
+              icon_color: palette.sky,
+            },
+            {
+              name: "Kanna Patreon",
+              url: "https://www.patreon.com/c/Kanna_Yanagi/posts?vanity=Kanna_Yanagi",
+              icon: "brand-patreon",
               icon_color: palette.peach,
             },
+          ],
+        },
+        {
+          name: "daily",
+          links: [
             {
               name: "tuta",
               url: "https://app.tuta.com",
               icon: "mail",
               icon_color: palette.red,
-            },
-          ],
-        },
-        {
-          name: "simping",
-          links: [
-            {
-              name: "patreon",
-              url: "https://patreon.com",
-              icon: "brand-patreon",
-              icon_color: palette.green,
             },
             {
               name: "ko-fi",
@@ -101,34 +101,16 @@ const default_configuration = {
           name: "media",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
+              name: "youtube",
+              url: "https://youtube.com",
+              icon: "brand-youtube",
               icon_color: palette.green,
             },
             {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
-              icon_color: palette.red,
-            },
-            {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
+              name: "twitter",
+              url: "https://x.com",
+              icon: "brand-twitter",
               icon_color: palette.blue,
-            },
-            {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
-              icon_color: palette.mauve,
             },
           ],
         },
