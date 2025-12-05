@@ -36,8 +36,8 @@ const default_configuration = {
     "s": "search-bar",
   },
   disabled: [],
-  localIcons: true,
-  localFonts: true,
+  localIcons: false,
+  localFonts: false,
   fastlink: "https://www.perplexity.ai",
   openLastVisitedTab: true,
   tabs: [
