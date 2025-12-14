@@ -73,6 +73,12 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
+              name: "Kanna twitch",
+              url: "https://www.twitch.tv/kannayanagi",
+              icon: "brand-twitch",
+              icon_color: palette.mauve,
+            },
+            {
               name: "Kanna Throne",
               url: "https://throne.com/kannayanagi",
               icon: "crown",
