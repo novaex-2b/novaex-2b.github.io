@@ -46,7 +46,7 @@ const default_configuration = {
       background_url: "src/img/banners/kanna.gif",
       categories: [
         {
-          name: "duck",
+          name: "ducky",
           links: [
             {
               name: "Kanna ch.",
@@ -65,6 +65,18 @@ const default_configuration = {
               url: "https://www.patreon.com/c/Kanna_Yanagi/posts?vanity=Kanna_Yanagi",
               icon: "brand-patreon",
               icon_color: palette.peach,
+            },
+            {
+              name: "Kanna Maro",
+              url: "https://marshmallow-qa.com/n76bewc55j62p4n",
+              icon: "notes",
+              icon_color: pallete.green,
+            },
+            {
+              name: "Kanna Throne",
+              url: "https://throne.com/kannayanagi",
+              icon: "crown",
+              icon_color: pallete.red,
             },
           ],
         },
@@ -95,6 +107,12 @@ const default_configuration = {
               icon: "brand-google-drive",
               icon_color: palette.blue,
             },
+            {
+              name: "gmail",
+              url: "https://mail.google.com/mail/u/0/#inbox",
+              icon: "brand-gmail",
+              icon_color: palette.green,
+            },
           ],
         },
         {
@@ -117,99 +135,46 @@ const default_configuration = {
       ],
     },
     {
-      name: "dev",
+      name: "hobbies",
       background_url: "src/img/banners/banner_07.gif",
       categories: [
         {
-          name: "development",
+          name: "fungus",
           links: [
             {
-              name: "github",
-              url: "https://github.com",
-              icon: "brand-github",
+              name: "Fungaia",
+              url: "https://fungaia.life",
+              icon: "mushroom",
               icon_color: palette.green,
             },
             {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
-              icon: "circle-triangle",
+              name: "Mycelium Emporium",
+              url: "https://novaex-2b.github.io/",
+              icon: "shopping-bag",
               icon_color: palette.peach,
             },
             {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
+              name: "Pegasus",
+              url: "https://pegasusbags.com/collections/bags",
+              icon: "horse",
               icon_color: palette.red,
-            },
-            {
-              name: "duckdb",
-              url: "https://app.motherduck.com",
-              icon: "file-type-sql",
-              icon_color: palette.mauve,
-            },
-            {
-              name: "collab",
-              url: "https://colab.research.google.com",
-              icon: "notebook",
-              icon_color: palette.flamingo,
             },
           ],
         },
         {
-          name: "challenges",
+          name: "tea",
           links: [
             {
-              name: "kaggle",
-              url: "https://www.kaggle.com",
-              icon: "brain",
+              name: "Jesse's Teahouse",
+              url: "https://jessesteahouse.com/en-us",
+              icon: "mug",
               icon_color: palette.green,
             },
             {
-              name: "leetcode",
-              url: "https://leetcode.com",
-              icon: "code-plus",
+              name: "Yunnan Sourcing",
+              url: "https://yunnansourcing.com/",
+              icon: "leaf",
               icon_color: palette.peach,
-            },
-            {
-              name: "exercism",
-              url: "https://exercism.org",
-              icon: "code-minus",
-              icon_color: palette.red,
-            },
-            {
-              name: "aoc",
-              url: "https://adventofcode.com",
-              icon: "brand-linktree",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-        {
-          name: "resources",
-          links: [
-            {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
-              icon_color: palette.green,
-            },
-            {
-              name: "hackernews",
-              url: "https://news.ycombinator.com",
-              icon: "brand-redhat",
-              icon_color: palette.peach,
-            },
-            {
-              name: "uber engineering",
-              url: "https://www.uber.com/en-GB/blog/london/engineering",
-              icon: "brand-uber",
-              icon_color: palette.red,
-            },
-            {
-              name: "netflix tech blog",
-              url: "https://netflixtechblog.com",
-              icon: "brand-netflix",
-              icon_color: palette.blue,
             },
           ],
         },
