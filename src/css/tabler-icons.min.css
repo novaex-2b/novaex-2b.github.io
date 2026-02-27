@@ -6,7 +6,7 @@
   font-family: "tabler-icons";
   font-style: normal;
   font-weight: 400;
-  src: url("https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.36.0/dist/tabler-icons.min.css") format("truetype");
+  src: url("../fonts/tabler-icons.ttf?v2.33.0") format("truetype");
 }
 
 .ti {
